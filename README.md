@@ -167,7 +167,7 @@ This class produces objects that love to dance.
 
 Run the tests to make sure some of your tests are passing.
 
-**Note:** Run the learn command to pass all the local tests for this lab. We will be altering the methods where these tests will no longer be valid.
+**Note:** Run the `learn test` command to pass all the local tests for this lab. We will be altering the methods where these tests will no longer be valid.
 
 ## Code Along III: Nested Modules
 
