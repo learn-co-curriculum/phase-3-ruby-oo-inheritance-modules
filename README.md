@@ -278,6 +278,6 @@ If you have a module whose methods you would like to be used in another class as
 
 If you want a module's methods to be used in another class as __class methods__, you must __extend__ the module.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/modules-reading' title='Intro to Modules'>Intro to Modules</a> on Learn.co and start learning to code for free.</p>
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/modules-reading'>Intro to Modules</a> on Learn.co and start learning to code for free.</p>
+
+
