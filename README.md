@@ -1,8 +1,8 @@
-# Modules and Mixins in Ruby
+# Introduction to Modules
 
 ## Objectives
 
-1. Learn about modules––another way to lend functionality across classes.
+1. Learn about modules &mdash; another way to lend functionality across classes.
 
 ## Introduction
 
@@ -97,7 +97,7 @@ class Dancer
 end
 ```
 
-If we use `include` keyword, we allow our classes to use all of the methods of the included module as *instance* methods. We'll talk about how to lend a module's methods as *class* methods in a minute.
+If we use the `include` keyword, we allow our classes to use all of the methods of the included module as *instance* methods. We'll talk about how to lend a module's methods as *class* methods in a minute.
 
 Now that we've included the module, open up `bin/dance_party` and get familiar with following code:
 
@@ -264,7 +264,7 @@ Kid.metadata
 // returns "This class produces objects that love to dance."
 ```
 
-## `::` versus`<`
+## `::` versus `<`
 
 Inheritance using the `<` syntax, implies that a class is a type of something. A `BMW` class should inherit from a `Car` class because a BMW is a type of car: `class BMW < Car`.
 
@@ -277,7 +277,3 @@ That's it! Now that we are familiar with several methods of sharing code between
 If you have a module whose methods you would like to be used in another class as __instance methods__, then you must __include__ the module.
 
 If you want a module's methods to be used in another class as __class methods__, you must __extend__ the module.
-
-
-
-
