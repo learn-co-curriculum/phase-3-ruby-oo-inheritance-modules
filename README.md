@@ -1,8 +1,8 @@
-# Introduction to Modules
+# Modules
 
-## Objectives
+## Learning Goals
 
-1. Learn about modules &mdash; another way to lend functionality across classes.
+- Learn about modules — another way to lend functionality across classes
 
 ## Introduction
 
