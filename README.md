@@ -334,8 +334,7 @@ Kid.metadata
 
 ## Namespacing Class Definitions
 
-The same module namespacing syntax we used can also above can also be used to
-namespace classes. You'll encounter syntax like this when working with other
+The same module namespacing syntax we used above can also be used to namespace classes. You'll encounter syntax like this when working with other
 Ruby libraries:
 
 ```rb
