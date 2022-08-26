@@ -233,7 +233,8 @@ it be great if there was a way to define one module and specify which methods
 were intended as class methods and which methods as instance methods.
 
 Guess what? There is! We're going to refactor the two modules into one, and use
-**module namespacing** to clarify how our code should be used.
+**module namespacing** to clarify how our code should be used. Let's update the
+code in `lib/fancy_dance.rb` as follows:
 
 ```ruby
 module FancyDance
@@ -292,8 +293,8 @@ end
 **Note**: remember to require the `fancy_dance.rb` file inside the `dancer.rb`
 and `kid.rb`, just like we did with our other file requirements.
 
-We refer to the namespaced modules or classes with `::`. This syntax references
-the parent and child relationship of the nested modules.
+We refer to the namespaced modules or classes with the `::` operator. This
+syntax references the parent and child relationship of the nested modules.
 
 Remember, `include` is used to add functionality to our classes via instance
 methods. The `InstanceMethods` module inside the `FancyDance` module contains
